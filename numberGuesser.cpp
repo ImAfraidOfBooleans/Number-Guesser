@@ -12,7 +12,7 @@ int main(){
     cout <<"what is the highest number that you want to choose?" << endl;
     cin >> high;
 
-    do{
+    do {
         mid = (high+low)/2;
 
         cout << "Is your number " << mid << '?'<< endl;
@@ -26,7 +26,7 @@ int main(){
         cout << "Error: Your number is not in the range [" << low << ", " << high << "]." << endl;
         break;
     }
-    }while (guess != 2);
+    } while (guess != 2);
 
     return 0;
 }
