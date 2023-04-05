@@ -15,8 +15,7 @@ int main(){
     do {
         mid = (high+low)/2;
 
-        cout << "Is your number " << mid << '?'<< endl;
-        cout << "type 0 for too low; 1 for too high; 2 for yes" <<endl;
+        cout << "Is your number " << mid << '?'<< endl << "too low (enter 0), too high (enter 1), or correct (enter 2)" <<endl;
         cin >> guess;
         if (guess == 2){
             break;
