@@ -1,7 +1,7 @@
 # Number-Guesser
 This is a simple C++ program that implements a number guessing using a binary search technique.
 
-## How to use
+### How to Use
 
 The program will ask you to input the highest number you want to choose, and then begin guessing based on your responses.
 
